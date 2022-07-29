@@ -1,0 +1,108 @@
+body{
+    padding: 35px;
+    font-family: poppins;
+}
+
+.nav-items {
+    float: left;
+    margin-left: 300px;
+}
+h5.nav-item {
+    float: left;
+    margin-left: 70px;
+    font-size: small;
+    font-weight: 900;
+}
+.active-item{
+    color:#fe5e35;
+}
+body > nav > img:nth-child(1) {
+    float: left;
+}
+body > nav > img:nth-child(3) {
+    float: right;
+}
+.left-section {
+    float: left;
+}
+.right-section {
+    float: right;
+}
+body > div > div.left-section > h3 {
+    font-size: xx-large;
+}
+body > div > div.left-section > h3 > img {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+body > div > div.left-section > h1 {
+    font-size: 4em;
+    font-family: Fredoka One;
+    font-weight: 100;
+}
+.plusicon {
+    width: 30px;
+    height: 30px;
+    background: #fe5e35;
+    float: left;
+    position: relative;
+  
+    text-align: center;
+    left: 70px;
+    border-radius: 50%;
+    color: white;
+
+}
+.sub-headlines {
+    font-size: x-large;
+}
+.icontext {
+    position: relative;
+    left: 90px;
+}
+
+p.text {
+    width: 750px;
+    color: gray;
+}
+body > div > div.right-section > div.headphone-div > img:nth-child(3) {
+    position: relative;
+    /* top: 0px; */
+    z-index: 1;
+}
+.headphone-div {
+    display: flex;
+    justify-content: center;
+}
+img.discount {
+    position: absolute;
+    z-index: 2;
+    top: 59.5%;
+    right: 510px;
+    box-shadow: grey;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+.discount-content {
+    position: relative;
+    top: 363px;
+    left: 78px;
+    color: white;
+    z-index: 2;
+}
+h1 {
+    font-size: 36px;
+    margin: 0px;
+    position: relative;
+    top: -24px;
+}
+button.action-btn {
+    width: 152px;
+    background: #fe5e35;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: larger;
+    height: 44px;
+    margin-left: 10px;
+}
