@@ -106,3 +106,114 @@ button.action-btn {
     height: 44px;
     margin-left: 10px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+    padding: 25px;
+  }
+  nav{
+    display: flex;
+  }
+  .nav-items{
+    display: none;
+   
+  }
+  .img{
+    margin-left: 150px;
+  }
+  .text{
+    width: 200px;
+  }
+  p.text{
+    width: 600px;
+  }
+  body > div > div.right-section > div.headphone-div > img:nth-child(3) {
+    position: relative;
+    top: 105px;
+    left: 110px;
+    width: 80px;
+    z-index: 1;
+}
+img.discount {
+    position: absolute;
+    z-index: 2;
+    top: 1100.85px;
+    /* right: 510px; */
+    right: 208px;
+    width: 100px;
+    box-shadow: grey;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+.discount-content {
+    position: relative;
+    top: 349px;
+    left: 193px;
+    color: white;
+    z-index: 2;
+}
+button.action-btn.cart {
+    position: relative;
+    top: 120px;
+    left: 270px;
+}
+.left-section {
+    float: left;
+    position: absolute;
+    top: 850px;
+}
+.headphone-div {
+    display: flex;
+    /* justify-content: center; */
+}
+img.discount {
+    position: absolute;
+    z-index: 2;
+    top: 440.85px;
+    /* right: 510px; */
+    right: 330px;
+    width: 100px;
+    box-shadow: grey;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+.discount-content {
+    position: relative;
+    top: 449px;
+    left: 76px;
+    color: white;
+    z-index: 2;
+}
+body > div > div.right-section > div.headphone-div > img:nth-child(3) {
+    position: relative;
+    top: 105px;
+    left: 260px;
+    width: 580px;
+    z-index: 1;
+}
+button.action-btn.cart {
+    position: relative;
+    top: 120px;
+    left: 170px;
+}
+.discount-content {
+    position: relative;
+    top: 488px;
+    left: 364px;
+    color: white;
+    z-index: 2;
+}
+
+img.discount {
+    position: absolute;
+    z-index: 2;
+    top: 550.85px;
+    right: 508px;
+    right: 209px;
+    width: 150px;
+    box-shadow: grey;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+button.action-btn.cart {
+    position: relative;
+    top: 120px;
+    left: 500px;
+}
+}
